@@ -1,9 +1,8 @@
-
 var ClozeCard = function(text, cloze){
-	var text = text;
-	var cloze = cloze;
+	var textCard = text;
+	var clozeCard = cloze;
 
-	if (!textc.includes(clozeC)){
+	if (!text.includes(clozeC)){
 		console.log("Error: The deletion does not appear in your text");
 		return;
 	}
